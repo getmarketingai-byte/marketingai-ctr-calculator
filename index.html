@@ -8,6 +8,18 @@
   <meta property="og:title" content="Click-Through Rate (CTR) Calculator — Free AU Marketing Tool">
   <meta property="og:description" content="Calculate your click-through rate instantly. Free tool for Australian businesses.">
   <meta property="og:type" content="website">
+  <!-- Schema.org JSON-LD Structured Data (NMA-554) -->
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Click-Through Rate (CTR) Calculator", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD", "name": "Free" }, "description": "Free click-through rate (CTR) calculator for Australian businesses. Calculate ad CTR for Google Ads, Facebook Ads, or email campaigns.", "url": "https://marketingai-ctr-calculator.vercel.app/", "provider": { "@type": "Organization", "name": "MarketingAI", "url": "https://marketing-ai-psi-nine.vercel.app/" }, "keywords": "CTR, click-through rate, ad click rate, advertising metrics", "areaServed": { "@type": "Country", "name": "Australia" } }
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q8MGZ47BC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2Q8MGZ47BC');
+  </script>
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7076137753154472"
       crossorigin="anonymous"></script>
@@ -425,6 +437,17 @@
       margin-top: 2px;
     }
 
+    .howto-list, .benchmark-list, .tips-list {
+      margin: 16px 0 20px 20px;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .howto-list li, .benchmark-list li, .tips-list li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
     footer {
       background: #1a1a2e;
       color: rgba(255,255,255,0.6);
@@ -617,6 +640,28 @@
     <p>Click-through rate (CTR) measures the percentage of people who click on your link, ad, or email out of the total number who saw it. It's one of the most widely tracked marketing metrics because it directly signals how compelling your headline, offer, or ad creative is to your audience.</p>
     <p>The formula is simple: <strong>CTR = (Clicks ÷ Impressions or Sends) × 100</strong>. If 1,000 people saw your email and 25 clicked, your CTR is 2.5%.</p>
     <p>A higher CTR generally means your message is resonating — but it's most useful when tracked alongside conversion rate and cost per lead. A high-CTR ad that doesn't convert is still a problem. Use CTR as a leading indicator of creative and targeting quality.</p>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">How to Calculate and Improve CTR</h2>
+    <ol class="howto-list">
+      <li><strong>Track consistently:</strong> Ensure your analytics tracks clicks and impressions accurately across all channels.</li>
+      <li><strong>Set baseline metrics:</strong> Calculate your current CTR before making changes so you can measure improvement.</li>
+      <li><strong>Test one variable at a time:</strong> Change headlines, images, or CTAs individually to know what works.</li>
+      <li><strong>Match intent:</strong> Ensure your ad copy matches exactly what the audience is searching for or interested in.</li>
+      <li><strong>Use clear CTAs:</strong> Action verbs and specific timeframes increase clicks.</li>
+    </ol>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">What Affects CTR?</h2>
+    <p>Several factors influence your click-through rate:</p>
+    <ul class="benchmark-list">
+      <li><strong>Relevance:</strong> How closely your ad matches what the user is looking for</li>
+      <li><strong>Position:</strong> Higher ad positions typically get higher CTRs</li>
+      <li><strong>Ad copy quality:</strong> Clear, specific messaging beats generic copy</li>
+      <li><strong>Visual appeal:</strong> Images and formatting affect clicks in emails and display</li>
+      <li><strong>Audience quality:</strong> More targeted audiences click more often</li>
+    </ul>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">CTR vs Conversion Rate</h2>
+    <p>CTR and conversion rate serve different purposes. CTR measures how many people click through to your landing page. Conversion rate measures how many of those visitors take your desired action. You can have excellent CTR but poor conversion rate — which means your ad is compelling but your landing page needs work. Both metrics matter for overall campaign success.</p>
 
     <h2 style="margin-top:28px; font-size:1.2rem;">AU Average CTR Benchmarks by Channel</h2>
     <p>These benchmarks reflect typical ranges for Australian businesses. Actual CTR varies by industry, audience, offer, and creative quality.</p>
