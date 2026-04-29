@@ -748,6 +748,7 @@
   }
 
   function calcCTR(channel) {
+    if (typeof gtag === "function") { gtag("event", "calculator_submit", {calculator_name: "ctr_calculator", page_title: document.title}); }
     let impressions, clicks, benchmarkKey;
 
     if (channel === 'email') {
